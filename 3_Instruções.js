@@ -5,9 +5,9 @@ const Manual = (i) =>{
 
   i.preload = function() {
     i.imagem[0] = i.loadImage('Imagens/Esp/3.jpg');
-    i.imagem[1] = i.loadImage('Imagens/Icons/CoraçãoIcon.png');
+    i.imagem[1] = i.loadImage('Imagens/Icons/CoracaoIcon.png');
     i.imagem[2] = i.loadImage('Imagens/Icons/EspadasIcon.png');
-    i.imagem[3] = i.loadImage('Imagens/Icons/InfluênciaIcon.png');
+    i.imagem[3] = i.loadImage('Imagens/Icons/InfluenciaIcon.png');
     i.imagem[4] = i.loadImage('Imagens/Icons/Esc.png');
     i.imagem[5] = i.loadImage('Imagens/Cards/Demo.png');
     i.imagem[6] = i.loadImage('Imagens/Icons/mouse.png');
