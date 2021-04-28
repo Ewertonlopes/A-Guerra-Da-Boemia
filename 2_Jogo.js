@@ -709,7 +709,7 @@ const win = (w) =>{
 	w.imagem = [];
 
 	w.preload = function() {
-		w.imagem[0] = w.loadImage("Imagens/Esp/3.jpg");
+		w.imagem[0] = w.loadImage('Imagens/Esp/3.jpg');
 	}
 
 	w.setup = function(){
@@ -742,7 +742,7 @@ const lose = (l) =>{
 	l.imagem = [];
 
 	l.preload = function() {
-		l.imagem[0] = l.loadImage("Imagens/Esp/3.jpg");
+		l.imagem[0] = l.loadImage('Imagens/Esp/3.jpg');
 	}
 
 	l.setup = function(){
