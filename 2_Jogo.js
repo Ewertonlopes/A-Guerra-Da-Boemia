@@ -32,7 +32,7 @@ const Game = (g) =>{
 	//Carta ou não?
 	g.mão = [];
 	for(n=0;n<7;n++){
-		g.mão[n] = false
+		g.mão[n] = false;
 	}
 
 
@@ -61,8 +61,8 @@ const Game = (g) =>{
 	//Carta ou não?
 	g.campo = [];
 	for(n=0;n<10;n++){
-		g.campo[n] = false
-		g.especiaison[n] = false
+		g.campo[n] = false;
+		g.especiaison[n] = false;
 	}
 	//Def
 	g.campodef = [];
@@ -99,7 +99,7 @@ const Game = (g) =>{
 
 g.preload = function() {
 	g.soundtrack[0] = g.loadSound('Sounds/Epic.mp3');
-	g.Eespeciais[0] = g.loadImage('Imagens/Esp/explosão.png')
+	g.Eespeciais[0] = g.loadImage('Imagens/Esp/explosão.png');
 	g.imagem[1] = g.loadImage('Imagens/Cards/Cardback1.png');
     g.imagem[2] = g.loadImage("Imagens/Icons/EspadasIcon.png");
     g.imagem[3] = g.loadImage("Imagens/Icons/InfluenciaIcon.png");
@@ -109,7 +109,7 @@ g.preload = function() {
 			g.deckim[n] = g.loadImage(`Imagens/DeckA/Card00${n+1}.jpg`);
 		}
 		else{
-			g.deckim[n] = g.loadImage(`Imagens/DeckA/Card0${n+1}.jpg`)
+			g.deckim[n] = g.loadImage(`Imagens/DeckA/Card0${n+1}.jpg`);
 		}
 	}
 }
