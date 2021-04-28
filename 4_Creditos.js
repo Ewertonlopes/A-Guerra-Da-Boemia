@@ -5,9 +5,9 @@ const Cred = (c) =>{
   c.j = parseInt(980); 
 
 c.preload = function(){
-  c.imagem[0] = c.loadImage('Imagens/esp/Card1.png');
-  c.imagem[1] = c.loadImage('Imagens/esp/Card2.png');
-  c.imagem[2] = c.loadImage('Imagens/esp/2.jpg');
+  c.imagem[0] = c.loadImage('Imagens/Esp/Card1.png');
+  c.imagem[1] = c.loadImage('Imagens/Esp/Card2.png');
+  c.imagem[2] = c.loadImage('Imagens/Esp/2.jpg');
   c.imagem[3] = c.loadImage('Imagens/Icons/Esc.png');
 }
   
