@@ -752,7 +752,7 @@ const lose = (l) =>{
 		l.fill('red');
 		l.textSize(x/30);
 		l.text('Você Perdeu',500,150);
-		l.fill(0)
+		l.fill(0);
 		l.text('"Pestis eram vivus - moriens tua mors ero."',250,250);
 		l.text('(Vivo, sou tua peste - morto, serei tua morte.)', 250,300);
 		l.text('Martinho Lutero',650,350);
