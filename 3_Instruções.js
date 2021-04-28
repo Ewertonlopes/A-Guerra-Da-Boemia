@@ -10,7 +10,7 @@ const Manual = (i) =>{
     i.imagem[3] = i.loadImage('Imagens/Icons/InfluênciaIcon.png');
     i.imagem[4] = i.loadImage('Imagens/Icons/Esc.png');
     i.imagem[5] = i.loadImage('Imagens/Cards/Demo.png');
-    i.imagem[6] = i.loadImage('Imagens/Icons/mouse.png')
+    i.imagem[6] = i.loadImage('Imagens/Icons/mouse.png');
   }
   
   i.setup = function() {
