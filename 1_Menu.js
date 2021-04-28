@@ -12,7 +12,7 @@ const main = (m) =>{
   m.soundtrack = [];
 
 m.preload = function() {
-  m.imagem[0] = m.loadImage("Imagens/esp/1.jpg");
+  m.imagem[0] = m.loadImage("Imagens/Esp/1.jpg");
 }
 
 m.setup = function() {
